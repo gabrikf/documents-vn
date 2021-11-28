@@ -14,7 +14,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
+The page will reload if you make edits.
 
 
 ![screenshot2full](https://user-images.githubusercontent.com/67654630/143777602-df6a2c0f-4aee-4636-80b5-8da63496a334.png)
