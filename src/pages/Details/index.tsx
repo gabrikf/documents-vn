@@ -140,7 +140,7 @@ export function Details() {
             </div>
           </div>
           <div>
-            <h2>Itens: </h2>
+            <h2>Items: </h2>
             {data?.items.map((item, index) => (
               <div key={index} className={styles.descriptionContent}>
                 <div className={styles.justify}>
