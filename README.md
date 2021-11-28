@@ -1,12 +1,18 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+![screenshot2mobile](https://user-images.githubusercontent.com/67654630/143777599-41385858-8c1b-434f-b043-179a99237325.png)
+![screenshot2full](https://user-images.githubusercontent.com/67654630/143777602-df6a2c0f-4aee-4636-80b5-8da63496a334.png)
+![screenshot1mobile](https://user-images.githubusercontent.com/67654630/143777608-4dedc106-4c7e-45d0-af2c-c4e99d6e37ac.png)
+![Screenshot1full](https://user-images.githubusercontent.com/67654630/143777609-7d6e572f-a4ac-4e09-9bdc-bc43691178b6.png)
 
 ## Available Scripts
 
+To install the packages please run: 
+### npm install || yarn
+
 In the project directory, you can run:
 
-### `npm start`
+### `npm start` || `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
