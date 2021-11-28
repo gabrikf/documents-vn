@@ -1,9 +1,5 @@
-import { useEffect } from "react";
-
 import { RiFileList3Line } from "react-icons/ri";
-
 import { MdFormatListNumbered } from "react-icons/md";
-
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { Layout } from "./components/Layout";
 import { useTitle } from "./hooks/useTitle";

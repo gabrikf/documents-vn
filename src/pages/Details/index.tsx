@@ -166,7 +166,7 @@ export function Details() {
                   />
                 </div>
                 <div className={styles.justify}>
-                  <strong>Amount Gross</strong>
+                  <strong>Amount Gross: </strong>
                   <input
                     disabled
                     value={new Intl.NumberFormat("de-DE", {
