@@ -1,0 +1,139 @@
+//header
+.layoutContainer {
+  padding-top: 5rem 0;
+  overflow: hidden;
+}
+
+.headerContainer {
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: var(--gray-100);
+  width: 100;
+
+  .headerContent {
+    display: none;
+    justify-content: start;
+    padding-left: 1rem;
+    height: 100%;
+    align-items: center;
+
+    img {
+      height: 2rem;
+    }
+
+    @media (min-width: 768px) {
+      display: flex;
+    }
+  }
+  .headerContentMobile {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 100%;
+    margin-left: 1rem;
+
+    transition: filter 0.2s;
+    svg {
+      cursor: pointer;
+      font-size: 2rem;
+    }
+    @media (min-width: 768px) {
+      display: none;
+    }
+  }
+}
+
+//SideBar
+.sideBarContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: calc(100vh - 5rem);
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+
+  .sideBarContent {
+    width: 20%;
+    background: var(--gray-100);
+    height: 100%;
+    display: none;
+
+    @media (min-width: 768px) {
+      display: block;
+    }
+
+    ul {
+      list-style: none;
+      cursor: pointer;
+
+      li {
+        display: flex;
+        font-size: 1rem;
+        justify-content: start;
+        height: 3rem;
+        padding-left: 1rem;
+        align-items: center;
+        color: #000;
+        gap: 0.25rem;
+
+        &.activemenuitem {
+          background: var(--gray-300);
+          color: #fff;
+          font-weight: var(--medium);
+        }
+        &:hover {
+          background: var(--gray-300);
+          color: #fff;
+          font-weight: var(--medium);
+        }
+      }
+    }
+  }
+  .openMenu {
+    width: 100%;
+    background: var(--gray-100);
+    height: 100%;
+    ul {
+      list-style: none;
+      cursor: pointer;
+
+      li {
+        display: flex;
+        font-size: 1.4rem;
+        justify-content: start;
+        height: 3rem;
+        padding-left: 1.5rem;
+        align-items: center;
+        color: #000;
+        gap: 0.25rem;
+        margin: 1rem 0;
+
+        &.activemenuitem {
+          color: var(--gray-800);
+          font-weight: var(--medium);
+        }
+      }
+    }
+  }
+
+  .pagesContent {
+    width: 100%;
+
+    height: calc(100vh - 5rem);
+    overflow-y: auto;
+    border: solid 0.1rem var(--gray-300);
+
+    @media (min-width: 768px) {
+      width: 80%;
+    }
+  }
+  .pageContentMenuAbled {
+    display: none;
+  }
+}
